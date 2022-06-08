@@ -1,0 +1,87 @@
+
+@media only screen and (min-width: 760px) {
+    nav
+    {	
+        margin-top: -10px;
+        width: 90%;
+    
+        margin-left: auto;
+        margin-right: auto;
+
+        background-color: var(--dark_gray);
+        font-family: 'Roboto Mono', monospace;
+        height: 80px;
+        
+    }
+    #top
+    {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+.navigation
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+    .ham
+    {
+        display: none;
+    }
+        
+    .link_text
+    {
+        position: relative;
+      
+    }
+
+    .nav_link
+    {
+        display: inline-block;
+        height: 40px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav_link:hover
+    {
+ 
+        background-color: var(--dark_blue);
+    }
+
+    .ham_text
+    {
+        display: none;
+    }
+
+    .ham_link, .ham_link:visited, .nav_link, .nav_link:visited
+    {
+        color: white;
+        text-decoration: none;
+    }
+
+    nav li
+    {
+        list-style-type: none;
+        display: inline;
+    }
+
+
+    .link_text
+    {
+        margin: auto;
+        height: 40px;
+        top: 8px;
+        font-size: 1.3em;
+        padding: 20px;
+    }
+
+    #last
+    {
+        text-align: center;
+        background-color: var(--lightgray);
+    }
+
+}

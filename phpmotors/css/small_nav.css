@@ -1,0 +1,96 @@
+
+@media only screen and (max-width: 759px) {
+    nav
+    {	
+        margin-top: -10px;
+        width: 90%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        background-color: var(--dark_gray);
+        font-family: 'Roboto Mono', monospace;
+        
+    }
+    nav a
+    {
+        display: block;
+    }
+
+    .ham
+    {
+        height: 45px;
+        display: block;
+    }
+
+    .nav_link
+    {
+        position: relative;
+        right: 20px;
+        border: white;
+        border: 2px solid #FFFFFF;
+        height: 35px;
+    
+    }
+
+    .nav_link:hover
+    {
+        background-color: var(--dark_blue);
+    }
+
+    .ham_text
+    {
+        position: relative;
+        float: right;
+        margin-right: 10px;
+        top: 6px;
+        border: 2px solid #FFFFFF;
+        border-radius: 5px;
+        padding: 5px;  
+    }
+
+    .ham_link, .ham_link:visited, .nav_link, .nav_link:visited
+    {
+        color: white;
+        text-decoration: none;
+    }
+
+
+    .navigation li:last-child
+    {
+        padding-bottom: 20px;
+    }
+
+    nav li
+    {
+        display: none;
+    }
+
+    .responsive li 
+    {
+        display: block;
+    }
+
+    .link_text
+    {
+        margin: auto;
+        position: relative;
+        top: 8px;
+        font-size: 1.1em;
+    }
+
+    #last
+    {
+        text-align: center;
+        background-color: var(--lightgray);
+    }
+}
+
+
+@media only screen and (max-width: 400px) 
+{
+    nav
+    {
+        width: 100%;
+    }
+}
